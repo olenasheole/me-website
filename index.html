@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Квартири подобово</title>
+     <!-- Посилання на стилі Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <body>
+      <header class="header">
+        <div class="container-fluid">
+        <div class="header__navi">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              
+                <a class="navbar-brand" href="#">Квартири подобово</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Переключатель навигации"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >Про компанію</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Новини</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Допомога</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Відгуки</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Контакти</a>
+                      </li>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Дія</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Інша дія</a>
+                        </li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Щось ще тут </a>
+                        </li>
+                      </ul>
+                  <form class="form-inline">
+                  <button class="btn" type="button">Замовити дзвінок</button>
+                  </form>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="header__own-info">
+        <div class="container">
+          <div class="header__info">    
+          <h1 class="header__desc">Подобова оренда квартир у Вашому місті</h1>
+          <p class="header__text">Бронювання квартир від 300 грн на добу.Комфортне проживання.Всі райони міста. </p>
+        </div>
+        <div class="header__form">
+          <h3 class="header__form-desc">Залиште заявку на підбір квартири і наш менеджер передзвонить Вам</h3>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Введіть імя">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Введіть номер телефону">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Місто">
+          </div>         
+            <button class="btn btn-primary" type="submit">Залишити заявку</button>
+          <p class="header__form-text">Знижка -15% при бронюванні через сайт</p>
+        </form>
+        </div>
+      </div>
+
+      <section class="flats">
+        <div class="flats__desc">
+            <h2 class="flats__desc-name">Кращі квартири подобово</h2>
+            <p class="flats__desc-info">Підберіть кращу квартиру за Вашими параметрами</p>
+          </div>
+        <div class="container">            
+            <div class="flats__cart cart-one">
+              <img src="./img/pagetwo/1.png" alt="" class="flats__cart-img">
+              <h4 class="flats__title">Апартаменти №1</h4>
+              <p class="flats__text">
+                Опис апартементів
+              </p>
+              <span class="flats__price">1000 грн/доба</span>
+              <a href="#!" class="btn btn--small">Замовити</a>
+            </div>
+      
+              <div class="flats__cart cart-two">
+                <img src="./img/pagetwo/2.png" alt="" class="flats__cart-img">
+                <h4 class="flats__title">Апартаменти №2</h4>
+                <p class="flats__text">
+                  Опис апартементів
+                </p>
+                <span class="flats__price">800 грн/доба</span>
+                <a href="#!" class="btn btn--small">Замовити</a>
+              </div>
+           
+                <div class="flats__cart cart-three">
+                  <img src="./img/pagetwo/3.png" alt="" class="flats__cart-img">
+                  <h4 class="flats__title">Апартаменти №3</h4>
+                  <p class="flats__text">
+                    Опис апартементів
+                  </p>
+                  <span class="flats__price">1000 грн/доба</span>
+                  <a href="#!" class="btn btn--small">Замовити</a>
+                </div>
+               
+                  <div class="flats__cart cart-four">
+                    <img src="./img/pagetwo/Rectangle 54.png" alt="" class="flats__cart-img">
+                    <h4 class="flats__title">Апартаменти №4</h4>
+                    <p class="flats__text">
+                      Опис апартементів
+                    </p>
+                    <span class="flats__price">1200 грн/доба</span>
+                    <a href="#!" class="btn btn--small">Замовити</a>
+                  </div>
+                  
+                    <div class="flats__cart cart-five">
+                      <img src="./img/pagetwo/5.png" alt="" class="flats__cart-img">
+                      <h4 class="flats__title">Апартаменти №5</h4>
+                      <p class="flats__text">
+                        Опис апартементів
+                      </p>
+                      <span class="flats__price">1000 грн/доба</span>
+                      <a href="#!" class="btn btn--small">Замовити</a>
+                    </div>
+                   
+                      <div class="flats__cart cart-six">
+                        <img src="./img/pagetwo/image.png" alt="" class="flats__cart-img">
+                        <h4 class="flats__title">Апартаменти №6</h4>
+                        <p class="flats__text">
+                          Опис апартементів
+                        </p>
+                        <span class="flats__price">1100 грн/доба</span>
+                        <a href="#!" class="btn btn--small">Замовити</a>
+                      </div>                    
+        </div>
+      </section>
+      
+      <section class="about">
+       <div class="container">
+        <div class="about__desc">
+          <p class="about__about">Про компанію</p>
+          <h2 class="about__info">4 роки ми здаємо прекрасні квартири в оренду</h2>
+          <h3 class="about__text">Наша мережа партнерів пропонує в короткочасну оренду затишні квартири і апартаменти подобово, повністю укомплектовані і обладнані всім необхідним для комфортного проживання! Це популярний сервіс бронювання житла для подобової оренди квартир, будинків, котеджів, хостелів або кімнат в Україні. На сайті представлено кілька тисяч пропозицій для розміщення. Кожен користувач може легко орендувати апартаменти на добу в іншому місті для ділової поїздки, відпустки, проведення вечірки, свята або фотосесії.</h3>
+          <form class="form-inline">
+            <button class="btn btn__about" type="button">Детальніше</button>
+            </form>
+        </div>
+       </div>
+      </section>
+
+      <section class="preference">
+        <div class="preference__desc">
+          <p class="preference__text-name">Переваги</p>
+          <h2 class="preference__desc-name">Забезпечимо Ваш комфорт</h2>
+        </div>
+        <div class="container">
+          <div class="preference__cart">
+            <img src="./img/pagefour/01.png" alt="" class="preference__cart-img">
+            <h4 class="preference__title">Заселення</h4>
+            <p class="preference__text">
+              Безконтактне заселення або з адміністратором
+            </p>
+          </div>
+    
+            <div class="preference__cart">
+              <img src="./img/pagefour/01.png" alt="" class="preference__cart-img">
+              <h4 class="preference__title">Чистота</h4>
+              <p class="preference__text">
+                Високий сервіс ввічливий персонал, чиста постіль та ідеальна чистота</p>
+            </div>
+         
+              <div class="preference__cart">
+                <img src="./img/pagefour/01.png" alt="" class="preference__cart-img">
+                <h4 class="preference__title">Знижки</h4>
+                <p class="preference__text">
+                  Знижки на довготривале проживання. Також знижки для корпоративних клієнтів
+                </p>
+              </div>
+             
+                <div class="preference__cart cart-four">
+                  <img src="./img/pagefour/01.png" alt="" class="preference__cart-img">
+                  <h4 class="preference__title">Оплата</h4>
+                  <p class="preference__text">
+                    Доступні різні способи оплати: банківській карти, на рахунок організації, готівкою.
+                  </p>
+                </div>
+                
+                  <div class="preference__cart">
+                    <img src="./img/pagefour/01.png" alt="" class="preference__cart-img">
+                    <h4 class="preference__title">Звітні документи</h4>
+                    <p class="preference__text">
+                      Надаємо звітні документи.
+                    </p>
+                  </div>
+
+                 <section class="image">
+                  <div class="container">
+                    <img src="./img/padefive/Frame 11.png" alt="image" class="image__five">
+                  </div>
+                 </section>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <h2 class="reviews__desk">Відгуки і партнери</h2>
+     <div class="container">
+      <div class="reviews__img">
+        <img src="./img/pagesix/Rectangle 58.png" alt="" class="reviews__img-greens">
+        <img src="./img/pagesix/Rectangle 59.png" alt="" class="reviews__img-beauti">
+        <img src="./img/pagesix/Rectangle 60.png" alt="" class="reviews__img-dance">
+        <img src="./img/pagesix/Rectangle 61.png" alt="" class="reviews__img-yoga">
+      </div>
+     </div>
+        </section>
+
+        <section class="reviews__item ">
+          <div class="container">
+          <div class="reviews__reviews">
+          
+            <img src="./img/pagesix/Ellipse 1.png" alt="" class="reviews__photo">
+            <div class="reviews__item-text">
+            <p class="reviews__clients">Робота з Вашим сервісом приносить радість, тому що високий професіоналізм, зручність, оперативність.</p>
+            <div class="reviews__item-desc"><p class="reviews__clients-name">Олександра Шевченко</p>
+            <p class="reviews__clients-prof">фотограф</p>         
+          </div>
+          </div>
+           </div>
+          </div>         
+        </section>  
+        
+        <section class="navi">
+          <div class="container">
+            <div class="navi__desk">
+            <h3 class="navi__desk-item">Наші апартаменти на карті</h3>
+            <a class="navi__tel" href="tel:+1234567890">+1 (234) 567-890</a><br>
+            <a class="navi__mail" href="mailto:info@example.com">info@example.com</a>
+            <p class="navi__adress">м.Київ, метро Бориспільська <br>вул.Світла,2а</p>
+          </div>
+          </div>
+        
+          <div class="navi__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.659087793907!2d-122.40746648503887!3d37.783569879758445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085806b3ae21c3d%3A0x41d594e3ccad70d!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1620576924410!5m2!1sen!2sus" width="705" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>        
+          </div>
+          </section>
+
+          <footer class="footer">
+              
+                <div class="container">
+                  <div class="footer__img">    
+                    <img src="./img/pagenine/Light1.png" alt="" class="footer__img-facebook">
+                    <img src="./img/pagenine/Light2.png" alt="" class="footer__img-twitter">
+                    <img src="./img/pagenine/Light3.png" alt="" class="footer__img-insta">
+                  </div>
+                  <div class="footer__list">
+                <a href="#" class="footer__list-about">Про компанію</a>
+                <a href="#" class="footer__list-about">Новини</a>
+                <a href="#" class="footer__list-about">Допомога</a>
+                <a href="#" class="footer__list-about">Контакти</a>
+                <p class="footer__text">2024 Квартири подобово</p>
+              </div>
+                     
+            </div>
+          </footer>
+      </header>
+     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+    </body>
+  </head>
+</html>

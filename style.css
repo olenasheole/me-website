@@ -1,0 +1,411 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/*--Головна сторінка--*/
+.header {
+}
+.container {
+  width: 1110px;
+}
+.header__navi {
+  width: 1140px;
+  height: 100px;
+  padding-left: 350px;
+}
+.navbar-brand {
+  font-family: Stem;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: black;
+  padding-right: 288px;
+  padding-top: 25px;
+}
+.navbar-nav {
+  width: 495px;
+  height: 24px;
+}
+
+.nav-link {
+  width: 150px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: right;
+  color: black;
+}
+
+.btn {
+  background-color: rgba(114, 9, 183, 1);
+  border-color: rgba(114, 9, 183, 1); /* Колір рамки */
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  width: 168px;
+  height: 44px;
+  margin-left: 227px;
+  color: white;
+}
+.btn:hover {
+  background-color: rgba(114, 9, 183, 1);
+  border-color: rgba(114, 9, 183, 1); /* Колір рамки при наведенні */
+}
+
+/*--контейнер--*/
+.header__own-info {
+  background-image: url(./img/pageone/01.png);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header__own-info .container {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__info {
+  padding-top: 240px;
+  padding-right: 220px;
+}
+.header__desc {
+  margin-left: -150px;
+  width: 480px;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+}
+.header__text {
+  margin-left: -150px;
+  width: 445px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+}
+.header__form {
+  padding: 60px 10px 10px 10px;
+  width: 450px;
+  height: 490px;
+  margin: 240px;
+  background-color: #fff;
+  border-radius: 16px;
+}
+.header__form-desc {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  width: 365px;
+  height: 72px;
+  padding-left: 30px;
+}
+.form-control {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 365px;
+  height: 56px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  color: rgba(45, 11, 126, 0.2);
+}
+.btn-primary {
+  margin-left: 110px;
+}
+.header__form-text {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+/*-- секція друга--*/
+
+.flats .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.flats__desc {
+  margin-left: 40px;
+  text-align: center;
+}
+.flats__text {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+}
+.flats__desc-name {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.flats__desc-info {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(1, 22, 39, 0.7);
+}
+.flats__cart {
+  box-sizing: border-box;
+  width: 340px;
+  min-height: 530px;
+  padding-top: 50px;
+}
+.flats__title {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+}
+.flats__price {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: rgba(114, 9, 183, 1);
+}
+.btn--small {
+  display: flex;
+  width: 115px;
+  height: 40px;
+  padding-left: 25px;
+  border-radius: 4px;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+/*--сексція про нас--*/
+
+.about {
+  margin-top: 100px;
+  background-image: url(./img/pagethree/01.png);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.about .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__about {
+  margin-top: 100px;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(46, 196, 182, 1);
+}
+.about__info {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  width: 930px;
+  height: 104px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.about__text {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 30px;
+  margin-left: 170px;
+  width: 730px;
+  height: 136px;
+}
+.form-inline {
+}
+.btn__about {
+  margin-left: 450px;
+  margin-top: 150px;
+}
+
+/*--секція переваги--*/
+.preference__desc-name {
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 120px;
+  margin-top: 20px;
+}
+.preference .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.preference__text-name {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(114, 9, 183, 1);
+  margin-top: 120px;
+}
+.preference__cart {
+  width: 33.33%;
+  box-sizing: border-box;
+  min-height: 212px;
+  padding-top: 50px;
+  align-items: center;
+}
+.preference__cart-img {
+  padding-left: 100px;
+}
+.preference__title {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+.preference__text {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(1, 22, 39, 0.7);
+}
+
+.image__five {
+  margin-top: 200px;
+  margin-top: 80px;
+}
+
+/*--секція відгуки--*/
+.reviews {
+  background-color: rgba(46, 196, 182, 1);
+  margin-top: 80px;
+}
+.reviews__desk {
+  font-size: 64px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 120px;
+}
+.reviews .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.reviews__item {
+  background-color: rgba(46, 196, 182, 1);
+  height: 615px;
+}
+.reviews__reviews {
+  width: 730px;
+}
+.reviews__item-text {
+  padding-left: 150px;
+}
+.reviews__photo {
+  margin-top: 220px;
+  position: absolute;
+  transform: translate(750%, -50%);
+}
+.reviews__clients {
+  padding-top: 300px;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 730px;
+  max-height: 87px;
+}
+.reviews__clients-name {
+  padding-top: 100px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+.reviews__clients-prof {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+.reviews__item-desc {
+  padding-left: 150px;
+}
+
+/*--navigashion--*/
+.navi {
+  height: 400px;
+  background-color: rgb(144, 233, 224);
+}
+.navi .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navi__desk {
+  margin-top: 120px;
+}
+.navi__desk-item {
+  padding-bottom: 16px;
+  font-size: 28px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+}
+.navi__map {
+  position: absolute;
+  margin-left: 1250px;
+  margin-top: -310px;
+}
+.navi__tel,
+.navi__adress,
+.navi__mail {
+  padding-top: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*--FOOTER--*/
+.footer .container {
+  display: block;
+  align-items: center;
+}
+.footer__img {
+  padding-left: 440px;
+  margin-top: 80px;
+  padding-bottom: 40px;
+}
+.footer__img-facebook {
+}
+.footer__img-twitter {
+}
+.footer__img-insta {
+}
+.footer__list {
+  text-align: center;
+}
+.footer__list-about {
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  text-align: left;
+}
+.footer__text {
+  margin-top: 60px;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.6);
+}
